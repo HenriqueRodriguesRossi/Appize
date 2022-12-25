@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;500&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background: linear-gradient(to top left, aqua, darkviolet);
+}
+
+.container{
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+img{
+	margin-top: 30px;
+}
+
+.child{
+	width: 20%;
+	height: 100px;
+	margin-top: 30px;
+	font-family: "Martian Mono", sans-serif;
+	font-weight: 200;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.child a:link{
+	color: ghostwhite;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.child a:visited{
+	color: ghostwhite;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.child a:hover{
+	color: black;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.container2{
+	height: 100%;
+	font-family: "Martian Mono", sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main p{	
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+
+.child2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: 300;
+	font-size: 26px;
+	margin-top: 50px;
+}
+
+label{
+	margin-top: 50px;
+}
+
+input{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+button{
+	width: 150px;
+	height: 30px;
+	border-radius: 30px;
+	margin-top: 50px;
+	border: 2px solid darkviolet;
+	font-size: 16px;
+}
+
+button:hover{
+	border: 3px solid darkviolet;
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	color: darkviolet;
+}
+
+a:visited{
+	text-decoration: none;
+	color: darkviolet;
+}
+
+.rodape{
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.texto-rodape{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    background: linear-gradient(to top left, aqua, darkviolet); 
+    padding: 20px;
+    width: 100%;
+}
+
+.sub{
+	font-family: "Martian Mono", sans-serif;
+	font-weight: 200;
+	text-align: center;
+	color: ghostwhite;
+	padding: 10px;
+}
+
+.underline{
+	width: 300px;        
+    border: 1px solid ghostwhite;
+}
+
+@media (max-width: 600px){
+
+	.container{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	
+	.child{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 16px;
+		flex-wrap: wrap;
+	}
+
+	.container a:link{
+		color: ghostwhite;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+	.container a:visited{
+	   	color: ghostwhite;
+	   	font-size: 16px;
+		text-decoration: none;
+	}	
+
+
+	.container a:hover{
+		color: black;
+		font-size: 20px;
+		text-decoration: underline;
+		transition: color 0.2s;
+	}
+
+	main p{
+		text-align: center;
+		padding: 10px;
+	}	
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+
+	.container{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		font-weight: 300;
+		font-size: 20px;
+	}
+
+	
+	.child{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 20px;
+		flex-wrap: wrap;
+	}
+
+	.container a:link{
+		color: ghostwhite;
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	.container a:visited{
+	   	color: ghostwhite;
+	   	font-size: 20px;
+		text-decoration: none;
+	}	
+
+
+	.container a:hover{
+		color: black;
+		font-size: 20px;
+		text-decoration: underline;
+		transition: color 0.2s;
+	}
+
+	main p{
+		text-align: center;
+		padding: 10px;
+	}	
+}
